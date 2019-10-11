@@ -34,5 +34,5 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.collect {|name| name << "s"}
+  array. {|name| name << "s"}
   end 
