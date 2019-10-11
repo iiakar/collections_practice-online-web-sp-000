@@ -35,7 +35,6 @@ end
 
 def add_s(array)
   array.collect {|name| 
-    if name != feet
-      name << s }
+    name << s } 
     
   end 
