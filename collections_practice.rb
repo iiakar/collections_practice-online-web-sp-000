@@ -34,8 +34,8 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each_with_index {|name|
-    name << "s"} 
-    index[1] = "feet"
+  array.each_with_index {|name,index|
+    name << "s",index[1] = "feet"} 
+    
     
   end 
