@@ -35,4 +35,7 @@ end
 
 def add_s(array)
   array.each do |name| 
-    if name != 
+    if name != "feet" 
+      name << "s"
+    end 
+  end 
