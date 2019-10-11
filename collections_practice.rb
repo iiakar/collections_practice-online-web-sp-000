@@ -34,5 +34,6 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array. {|name| name << "s"}
+array.each {|name| name << "s" unless name != "feet"}
+  name = name 
   end 
