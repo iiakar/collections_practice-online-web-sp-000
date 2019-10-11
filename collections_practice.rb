@@ -35,6 +35,6 @@ end
 
 def add_s(array)
   array.collect {|name| 
-    name << s } 
+    name << "s" } 
     
   end 
